@@ -6,12 +6,12 @@ This Docker image contains all latex packages and the TeXstudio editor.
 
 ## Based on
 * Ubuntu 22.04
-* TeX
-* TeXstudio 
+* TeX Live 2022
+* TeXstudio 4.2.1 
 
 ## How to use the image
 
-Run the service with docker-compose:
+Run the following script:
 ```
 export MOUNT_DIR=/host/path/to/tex/sources
 ./start_texstudio.sh
