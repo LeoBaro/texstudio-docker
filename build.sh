@@ -1,0 +1,1 @@
+docker build --build-arg HOST_UID=$UID -t texstudio:latest .
