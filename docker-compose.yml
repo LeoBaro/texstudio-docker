@@ -3,7 +3,7 @@ version: '3.7'
 services:
   texstudio:
     container_name: texstudio
-    image: texstudio:latest
+    image: texstudio:0.0.1
     user: $UID:$GID
     entrypoint: ["/usr/bin/texstudio"]
     environment:
