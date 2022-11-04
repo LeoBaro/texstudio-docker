@@ -26,7 +26,7 @@ RUN tlmgr install scheme-full
 
 # Install texstudio
 RUN apt-get update
-RUN apt-get install -y texstudio
+RUN apt-get install -y texstudio ghostscript
 
 RUN mkdir /entrypoints
 COPY texstudio-entrypoint.sh /entrypoints/texstudio-entrypoint.sh
